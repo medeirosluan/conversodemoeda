@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body class="bg-gray-300 flex justify-center items-center h-screen">
+    <div class="bg-slate-600 w-96 p-4 rounded-lg">
+		<div class="flex flex-col">
+			<label class="text-xl text-white" for="">Converter:</label>
+			<select class="p-2 rounded-md" name="" id="">
+				<option value="real">Real Brasileiro</option>
+			</select>
+		</div>
+
+		<div class="flex flex-col">
+			<label class="mt-4 text-white text-xl" for="">Para:</label>
+			<select class="p-2 rounded-md" name="" id="">
+				<option value="dolar">Dolar Americano</option>
+				<option value="euro">Euro</option>
+			</select>
+			<input class="p-2 outline-none mt-4 rounded-md" type="number" placeholder="R$: 10.00">
+			<button class="p-2 hover:bg-green-500 mt-8 bg-green-600 font-bold rounded-md">Converter</button>
+		</div>
+		
+		<div class=" flex justify-center items-center flex-col gap-3">
+			
+				<img class="mt-4" src="assets/brasil.png" alt="">
+				<p class="h-0 mb-2 font-semibold">Real</p>
+				<p class="font-bold text-4xl">0.00</p>
+			
+			
+				<img src="assets/conversao.png" alt="">
+			
+			
+				<img src="assets/estados-unidos.png" alt="">
+				<p class="h-0 mb-2 font-semibold">Dolar Americano</p>
+				<p class="text-4xl font-bold">0.00</p>
+
+		</div>
+
+    </div>
+</body>
+
+</html>
